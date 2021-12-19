@@ -23,6 +23,7 @@ pytest-asyncio = "0.16.0"
 pylint = "2.12.2"
 codecov = "2.1.12"
 black = "21.12b0"
+isort = "5.10.1"
 
 [tool.isort]
 profile = "black"
