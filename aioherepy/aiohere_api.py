@@ -21,6 +21,7 @@ class AioHEREApi:
     def __init__(
         self,
         api_key: str,
+        api_url: str,
         request_timeout: int = 10,
         session: aiohttp.ClientSession | None = None,
     ) -> None:
@@ -28,6 +29,8 @@ class AioHEREApi:
         Args:
           api_key (str):
             HERE API key.
+          api_url (str):
+            HERE API url.
           request_timeout (int):
             Max timeout to wait for a response from the API.
           session (Optional[aiohttp.ClientSession]):
@@ -36,7 +39,7 @@ class AioHEREApi:
 
         self.api_key = api_key
         self.request_timeout = request_timeout
-        self.api_url = "https://weather.cc.api.here.com/weather/1.0/report.json"
+        self.api_url = api_url
         self._session = session
         self._close_session = False
 

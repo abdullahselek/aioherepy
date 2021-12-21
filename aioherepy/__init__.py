@@ -20,3 +20,4 @@ from .here_error import (
     HERETimeOutError,
     HEREUnauthorizedError,
 )
+from .routing_api import RoutingApi
