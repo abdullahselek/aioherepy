@@ -1,7 +1,7 @@
 """Asynchronous Python library that provides a simple interface to the HERE APIs."""
 
 __author__ = "Abdullah Selek"
-__email__ = "abdullahselek@gmail.com"
+__email__ = "abdullahselek.os@gmail.com"
 __copyright__ = "Copyright (c) 2021 Abdullah Selek"
 __license__ = "MIT License"
 __version__ = "0.1.0"
